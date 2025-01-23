@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Raksha Nallabothula</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Certifications</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Raksha Nallabothula </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Raksha Nallabothula</h1>
+        <p class="section__text__p2"> 
+          Conscientious and compassionate human resources professional with drive for helping employers recruit,
+          develop and retain qualified candidates. Skilled at partnering with management teams to build employee-
+          centric cultures promoting positive morale and optimizing productivity and to seek and maintain full-time
+          position that offers professional challenges utilizing interpersonal skills, excellent time management and
+          problem-solving skills. </p>
+
+         <div>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Raksha Nallabothula.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/raksha-nallabothula-63593b251/'"
+            />
+            <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Raksha1128/Raksha1128.git'"
+           />
+
+          
+           </div>
+           </div>
+           </section>
+      
+           <section id="about">
+           <p class="section__text__p1">Get To Know More</p>
+           <h1 class="title">About Me</h1>
+
+            <div class="section-container">
+             <div class="section__pic-container">
+             <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+           />
+           </div>
+           <div class="about-details-container">
+           <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+
+
+              <h3>Experience</h3>
+              <p>1+ years <br />HR & Finance Executive</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>M.S. Human Resources Management </p>
+            </div>
+          </div>
+          <div class="text-container">
+           
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ASISTMI SOLUTIONS Pvt Ltd</h3>
+                  <p>HR & Finance Executive</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Advance Office Automation</h3>
+                  <p>Compensation-Optimization</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+         
+      </div>
+
+      <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">PROFESSIONAL SKILLS</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Recruiting Strategies</h3>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Project Management</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Strategic Planning</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Labor Law</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Workforce Planning</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Employee Development</h3>
+                  
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HR Metrics & Analytics</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+         
+        </div>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Technical Skills </h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML & CSS</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Data Visualization</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Advanced Excel</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                   <h3>POWER BI</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+  
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Micrsoft Office</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+           
+          </div>
+
+
+
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+
+
+      </section>
+    </section>
+    <br/>
+    <section id="projects">
+
+      
+      <h1 class="title">Certifications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+             
+
+            </div>
+            <h2 class="experience-sub-title project-title">Python for Non-Programmers</h2>
+            <p> </p>
+            <p> LinkedIn</p>
+            <div class="btn-container">
+             
+
+            
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+
+            </div>
+            <h2 class="experience-sub-title project-title">Business Analysis Foundations</h2>
+            <p>  </p>
+            <p> LinkedIn </p>
+            <div class="btn-container">
+          
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+     
+            </div>
+            <h2 class="experience-sub-title project-title">Data-Driven Product Management</h2>
+            <p> </p>
+            <p> LinkedIn</p>
+            <div class="btn-container">
+
+  
+
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+     
+            </div>
+            <h2 class="experience-sub-title project-title">Business Benefits Realization
+              Foundations</h2>
+            <p> </p>
+            <p> LinkedIn </p>
+            <div class="btn-container">
+
+
+
+           
+     
+           </div>
+           <img
+           src="./assets/arrow.png"
+           alt="Arrow icon"
+           class="icon arrow"
+           onclick="location.href='./#contact'"
+           />
+           </section>
+           <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+           <div class="contact-info-upper-container">
+           <div class="contact-info-container">
+           <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+           />
+           <p><a href="mailto:examplemail@gmail.com">nrakshatr@gmail.com</a></p>
+           </div>
+           <div class="contact-info-container">
+           <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+           />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Certfications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Raksha. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
